@@ -1,0 +1,10 @@
+To run this project you will have to firstly install the server like xamp or wamp in which the .php code would work to see the GUI (Graphical User Interface).
+
+There are 2 approaches to access the fully functional GUI along with the database :
+
+1. There is a file in the project --> frmr database.txt 
+In this file there are queries for creating database farmer and for creating tables of buying selling etc.
+
+You will have to run these queries one-by-one on the MySql Console and see the output. Once you have run all the queries successfully, now the fully functional GUI is ready to use where the login signup database module, add to cart and checkout module and the selling and buying module will work perfectly.
+
+2. There is an alternate if you don't want to run the queries.... There is a file farmer (optional) which contains all the database along with the values feeded in it. You will just have to paste it in the directory where you have installed the wamp server, i.e, WAMP\wamp64\bin\mysql\mysql5.7.14\data\ (The my sql 5.7.14 is our version of mysql and you can replace it with yours)....But remember this is an optional process if you dont want to run the queries. 
